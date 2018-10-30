@@ -1,26 +1,19 @@
  header .brand-logo{
     font-family: 'Pacifico', cursive;
 }
-.rose{
-    height: 280px;
-    width: 320px !important;
-}
-.card{
-    height: 25%;
-    width: 24%;
-    margin: 25px !important;
-      transition: 1s;
-    transform: scale(1.1,1.1);
-    z-index: 1;  
 
-   
-}
-#title{
-    font-weight:bold ;
-   font-size: 30px;
+
+.card-title{
+    font-weight: bold !important;
+   font-size: 30px !important;
     font-family: 'Pacifico', cursive;
     color:red;
    
+}
+.img{
+    width: 200px;
+    width: 300px;
+    margin: 16px;
 }
 section{
     display: flex !important;
@@ -33,4 +26,27 @@ footer{
     padding: 10px;
     font-family: 'Pacifico', cursive;
     padding: 10px;
+}
+
+.img-div{
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+ 
+}
+#rose-div  .card-image{
+    background-image: url(images/rose.png);
+  
+}
+#butter-div .card-image{
+    background-image: url(images/yellow.png);
+}
+#dehlia-div .card-image{
+    background-image: url(images/red.png);
+}
+#multi-div .card-image{
+    background-image: url(images/multi.png);
+}
+#orange-div .card-image{
+    background-image: url(images/orange.png);
 }
